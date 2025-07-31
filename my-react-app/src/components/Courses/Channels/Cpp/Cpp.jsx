@@ -1,7 +1,13 @@
 function Cpp() {
 
-    const apnacollege=()=>{
+        const apnacollege=()=>{
     window.open(`${window.location.origin}/cpp/apna-college`, '_blank')
+  }
+   function jenny(){
+    window.open(`${window.location.origin}/cpp/jenny-lecture`, '_blank');
+  }
+   function ChaiAurCode(){
+    window.open(`${window.location.origin}/cpp/chai-aur-code`, '_blank');
   }
 
     return (
@@ -76,11 +82,12 @@ function Cpp() {
 
         <p className="text-sm text-gray-700 text-center sm:text-left mt-1">
         A channel dedicated to chai and coding in HINDI. A lot happens over chai and I am a big-time chai lover. Let's sip tea and write some code and some chit-chat.
-Ab ye b Hindi me linkne to mat bolna, abhi ke liye itna hi likenge.
-Baaki baad me.</p>
+        </p>
 
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button
+          onClick={ChaiAurCode}
+           className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
@@ -123,7 +130,9 @@ Baaki baad me.</p>
         </p>
 
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button
+          onClick={ jenny} 
+          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>

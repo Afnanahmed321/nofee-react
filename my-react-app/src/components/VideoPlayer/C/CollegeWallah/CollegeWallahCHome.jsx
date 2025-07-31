@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
-import PlayListSidebar from "./PlayListSidebar.jsx";
+import PlayListSidebar from "../CollegeWallah/PlayListSidebar.jsx";
 import PlayListPlayer from "../../Common Components/PlayListPlayer.jsx";
 
 
-const ApnaCollegeCHome = () => {
+const CollegeWallahCHome = () => {
   const apiKey = "AIzaSyBs569PnYQUNFUXon5AMersGFuKS8aS1QQ";
-  const playlistId = "PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt";
+  const playlistId = "PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt";
   const maxResults = 50;
 
   const [videos, setVideos] = useState([]);
@@ -155,4 +155,4 @@ const ApnaCollegeCHome = () => {
   );
 };
 
-export default ApnaCollegeCHome;
+export default CollegeWallahCHome;

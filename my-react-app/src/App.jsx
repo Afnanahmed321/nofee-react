@@ -14,11 +14,21 @@ import CSS from '/src/components/Courses/Channels/CSS/CSS.jsx'
 import JavaScript from '/src/components/Courses/Channels/JavaScript/JS.jsx'
 import Mern from '/src/components/Courses/Channels/Mern/Mern.jsx'
 
+
 import ApnaCollegeCHome from './components/VideoPlayer/C/Apna College/ApnaCollegeCHome.jsx'
 import JennyCHome from './components/VideoPlayer/C/Jennys Lecture/JennyCHome.jsx'
-
+import CollegeWallahCHome from './components/VideoPlayer/C/CollegeWallah/CollegeWallahCHome.jsx'
 // C++
 import ApnaCollegeCppHome from './components/VideoPlayer/Cpp/Apna College/ApnaCollegeCppHome.jsx'
+import ChaiAurCodeCppHome from './components/VideoPlayer/Cpp/ChaiAurCode/ChaiAurCodeCppHome.jsx'
+import JennyCppHome from './components/VideoPlayer/Cpp/Jennys Lecture/JennyCppHome.jsx'
+//Java
+import ApnaCollegeJavaHome from './components/VideoPlayer/Java/Apna College/ApnaCollegeJavaHome.jsx'
+import ChaiAurCodeJavaHome from './components/VideoPlayer/Java/ChaiAurCode/ChaiAurCodeJavaHome.jsx'
+import ProgrammingwithmoshJavaHome from './components/VideoPlayer/Java/Mosh/ProgrammingwithmoshJavaHome'
+
+
+
 
 
 // Check your ability
@@ -52,8 +62,22 @@ function App() {
 
         <Route path='/c/apna-college' element={<ApnaCollegeCHome/>}/> 
         <Route path='/c/jenny-lecture' element={<JennyCHome/>}/> 
+        <Route path='/c/college-wallah' element={<CollegeWallahCHome/>}/>
 
-        <Route path='/cpp/apna-college' element={<ApnaCollegeCppHome/>}/> 
+        {/* CPP Starts from here */}
+        <Route path='/Cpp/apna-college' element={<ApnaCollegeCppHome/>}/>
+        <Route path='/Cpp/chai-aur-code' element={<ChaiAurCodeCppHome/>}/>
+        <Route path='/Cpp/jenny-lecture' element={<JennyCppHome/>}/>
+
+        {/* Java Starts from here */}
+        <Route path='/Java/apna-college' element={<ApnaCollegeJavaHome/>}/>
+        <Route path='/Java/chai-aur-code' element={<ChaiAurCodeJavaHome/>}/>
+        <Route path='/Java/programming-with-mosh' element={<ProgrammingwithmoshJavaHome/>}/>
+
+
+
+
+         
           {/* Check your ability */}
 
         

@@ -5,9 +5,9 @@ import PlayListSidebar from "./PlayListSidebar.jsx";
 import PlayListPlayer from "../../Common Components/PlayListPlayer.jsx";
 
 
-const ApnaCollegeCHome = () => {
+const ChaiAurCodeCHome = () => {
   const apiKey = "AIzaSyBs569PnYQUNFUXon5AMersGFuKS8aS1QQ";
-  const playlistId = "PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt";
+  const playlistId = "PLu71SKxNbfoCPfgKZS8UE0MDuwiKvL8zi";
   const maxResults = 50;
 
   const [videos, setVideos] = useState([]);
@@ -155,4 +155,4 @@ const ApnaCollegeCHome = () => {
   );
 };
 
-export default ApnaCollegeCHome;
+export default ChaiAurCodeCHome;

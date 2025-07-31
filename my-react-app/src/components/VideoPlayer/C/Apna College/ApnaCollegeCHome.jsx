@@ -6,7 +6,7 @@ import PlayListPlayer from "../../Common Components/PlayListPlayer";
 
 const JennyCHome = () => {
   const apiKey = "AIzaSyBs569PnYQUNFUXon5AMersGFuKS8aS1QQ";
-  const videoId = "MNeX4EGtR5Y"; 
+  const videoId = "irqbmMNs2Bo"; 
 
   const [videos, setVideos] = useState([]);
   const [durations, setDurations] = useState({});
