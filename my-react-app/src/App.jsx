@@ -36,6 +36,8 @@ import MainPageCYA from '/src/components/Check-Your-Ability/MainPageCYA'
 import InterviewRounds from '/src/components/Check-Your-Ability/InterviewRounds.jsx'
 // import InterviewRounds from '/src/components/Check-Your-Ability/InterviewRules'
 
+import CourseDetail from './components/Header/CourseDetails.jsx';
+
 
 function App() {
   
@@ -59,6 +61,9 @@ function App() {
         <Route path='courses/javascript' element={<JavaScript/>}/> 
         <Route path='courses/javascript' element={<JavaScript/>}/> 
         <Route path='courses/mern' element={<Mern/>}/> 
+
+        <Route path="/course/:courseName" element={<CourseDetail />} />
+
 
         <Route path='/c/apna-college' element={<ApnaCollegeCHome/>}/> 
         <Route path='/c/jenny-lecture' element={<JennyCHome/>}/> 
