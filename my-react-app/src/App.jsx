@@ -79,12 +79,7 @@ function App() {
         <Route path='/Java/chai-aur-code' element={<ChaiAurCodeJavaHome/>}/>
         <Route path='/Java/programming-with-mosh' element={<ProgrammingwithmoshJavaHome/>}/>
 
-
-
-
-         
           {/* Check your ability */}
-
         
         <Route path='check-your-ability' element={<MainPageCYA/>} />
         <Route path='check-your-ability/interview-rounds/:company/:role' element={<InterviewRounds/>} />
